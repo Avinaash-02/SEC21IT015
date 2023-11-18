@@ -1151,31 +1151,24 @@ footer .content {
 @media only screen and (max-width: 768px) {
     .offer .content.grid2 {
         grid-template-columns: 1fr;
-        /* Change to a single column layout */
         gap: 15px;
-        /* Add some spacing between elements */
     }
     .offer .box {
         width: 100%;
-        /* Make boxes take up the full width */
     }
     .offer .right img {
         width: 100%;
-        /* Make images take up the full width */
     }
     .offer .right {
         margin-top: 15px;
-        /* Add spacing between the image and text */
     }
     .offer .right h4,
     .offer .right p,
     .offer .right h5 {
         text-align: center;
-        /* Center text for better readability */
     }
     .offer button.flex1 {
         width: 100%;
-        /* Make button take up the full width */
     }
 }
 
@@ -1185,16 +1178,12 @@ footer .content {
 @media only screen and (max-width: 768px) {
     .timer .container {
         padding: 20px;
-        /* Add some padding for better spacing on small screens */
     }
     .timer .heading h2 {
         font-size: 1.5em;
-        /* Adjust the font size for better readability */
     }
     #time {
         flex-direction: column;
-        /* Stack the timer elements vertically */
         align-items: center;
-        /* Center the timer elements */
     }
 }
